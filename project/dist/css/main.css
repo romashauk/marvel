@@ -1070,7 +1070,7 @@ a {
       transform: rotate(0deg); }
 
 .service {
-  background: url(../Img/service-img.png) no-repeat;
+  background: url(../img/service-img.png) no-repeat;
   min-height: 950px;
   position: relative;
   background-position-y: 100%;
@@ -1514,7 +1514,7 @@ a {
 
 .contact {
   background-color: #f1f0f0;
-  background-image: url(../Img/world-map.png);
+  background-image: url(../img/world-map.png);
   min-height: 1200px;
   position: relative;
   overflow: hidden; }
@@ -1577,7 +1577,7 @@ a {
 
 .map {
   min-height: 164px;
-  background: url(../Img/map.png);
+  background: url(../img/map.png);
   overflow: hidden; }
   .map .logan {
     display: flex;
