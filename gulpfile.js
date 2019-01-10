@@ -7,11 +7,22 @@ var gulp = require('gulp'),
 	postcss = require('gulp-postcss'),
 	browserSync = require('browser-sync'),
 	image = require('gulp-image');
+	pug = require('gulp-pug');
+
+	gulp.task('pug', function(){
+		return gulp.src('project/app/pug/index.pug')
+		.pipe(pug({
+			pretty:true
+		}))
+		.pipe(gulp.dest("project/app"))
+	})
 
 gulp.task('sass', function() {
-	return gulp.src('project/app/sass/**/*.scss')
+	return gulp.src('project/app/sass/main.scss')
 		.pipe(sourcemaps.init())
-		.pipe(sass())
+		.pipe(sass(
+			{output:'expanded'}
+		))
 		.pipe(postcss([
 				mqPacker({
 					sort: sortMQ
@@ -61,6 +72,7 @@ gulp.task('browser-sync', function() {
 		.on('change', browserSync.reload);
 	gulp.watch('project/app/js/**/*.js', gulp.series('js'))
 		.on('change', browserSync.reload);
+	gulp.watch('project/app/pug/**/*.pug', gulp.series("pug"))
 });
 
-gulp.task('watch', gulp.series('html', 'sass', 'img', 'font', 'js', 'browser-sync'));
+gulp.task('watch', gulp.series('html', 'sass', 'img', 'font', 'js', 'browser-sync',));
