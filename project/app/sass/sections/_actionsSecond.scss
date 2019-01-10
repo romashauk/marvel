@@ -1,0 +1,54 @@
+.actionsSecond {
+  min-height: 416px;
+  background: url(../Img/ontain.png);
+  overflow: hidden;
+
+  .container {
+    padding-top: 103px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logan {
+    color: $white;
+    font-size: 28px;
+    padding-top: 0;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  &-text {
+    color: $white;
+    font-family: $lato;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &-button {
+    width: 100%;
+    margin-top: 118px;
+    text-align: center;
+  }
+
+  &-item {
+    background: white;
+    min-height: 50px;
+    width: 170px;
+    color: $MineShaft;
+    border: none;
+    font-family: $lato;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px 34px;
+    transition: 0.3s;
+
+    &:hover {
+      background: $Supernova;
+    }
+  }
+
+  .second {
+    margin-left: 19px;
+  }
+}

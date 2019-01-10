@@ -1,0 +1,85 @@
+.offer {
+  background: $DesertStorm;
+  min-height: 695px;
+  position: relative;
+  overflow: hidden;
+  background: #fafafa;
+  border-top: 1px solid #d6d6d6;
+  background-image: url(../Img/device-lamp.png);
+  background-repeat: no-repeat;
+  background-position-x: 4.15%;
+  z-index: 3;
+
+  &-cycle {
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    border: 75px solid $Supernova;
+    z-index: 1;
+    position: absolute;
+    top: 27%;
+    left: 52%;
+  }
+
+  &-logo {
+    position: absolute;
+    left: 49.5%;
+    top: 16.3%;
+    z-index: 3;
+  }
+
+  .main {
+    width: 540px;
+    text-align: start;
+    font-size: 27px;
+    margin-top: 74px;
+  }
+
+  .pre-logan {
+    top: 12%;
+    font-size: 70px;
+  }
+
+  .text-logo {
+    font-family: $lato;
+    color: $font-color;
+    font-size: 16px;
+    width: 540px;
+    line-height: 1.5;
+    margin-top: 50px;
+  }
+
+  &-list {
+    line-height: 2.15;
+    color: $font-color;
+    font-size: 16px;
+    margin-top: 45px;
+    font-family: $lato;
+    letter-spacing: 1.2px;
+
+    i {
+      margin-right: 10px;
+      font-size: 13px;
+    }
+  }
+
+  &-button {
+    width: 127px;
+    color: $MineShaft;
+    background: $Supernova;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 28px;
+    font-family: $mont;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px;
+    letter-spacing: 0.5;
+    transition: 0.3s;
+
+    &:hover {
+      background: $MineShaft;
+      color: $Supernova;
+    }
+  }
+}

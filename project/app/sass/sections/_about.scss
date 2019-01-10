@@ -1,0 +1,176 @@
+.about {
+	background: $DesertStorm;
+	min-height: 1410px;
+	position: relative;
+	overflow: hidden;
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&-decoration {
+		width: 1010px;
+		height: 1010px;
+		border: 190px solid $Supernova;
+		position: absolute;
+		border-radius: 50%;
+		top: 12.5%;
+		left: -474px;
+	}
+
+	&-phone {
+		position: absolute;
+		top: 63.2%;
+		left: 78.2%;
+	}
+
+	&-text {
+		text-align: center;
+		width: 930px;
+		padding-top: 25px;
+		letter-spacing: 0.9px;
+	}
+
+	&-buttons {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-left: -13px;
+		margin-top: 68px;
+		z-index: 4;
+		button{
+			text-transform: uppercase;
+			font-family: $lato;
+			font-size: 19px;
+			font-weight: 700;
+		}
+	}
+
+	&-item {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		transition: 0.3s;
+		width: 358px;
+		min-height: 397px;
+		border: 1px solid #999999;
+		background: $MineShaft;
+		position: relative;
+		transition: background 0.3s;
+		cursor: pointer;
+		margin-top: 84px;
+		overflow: hidden;
+
+		&:hover {
+			background: $Supernova;
+		}
+
+		&:hover .about-icons {
+			margin-top: 37px;
+			color: $white;
+
+		}
+
+		&:hover .about-cycle {
+			opacity: 0.2;
+		}
+
+		&:hover .about-goods {
+			opacity: 1;
+			margin-top: -40px;
+		}
+
+		&:hover .about-perspective {
+			margin-top: -30px;
+		}
+	}
+
+	.fas {
+		font-size: 100px;
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	&-icons {
+		color: $Supernova;
+		font-size: 130px;
+		margin-top: 78px;
+		width: 100%;
+		transition: 0.3s;
+		text-align: center;
+	}
+
+	&-perspective {
+		color: $white;
+		font-size: 25px;
+		font-family: $lato;
+		font-weight: 900;
+		letter-spacing: 1.5px;
+		margin-top: 14px;
+	}
+
+	&-features {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	&-goods {
+		color: $white;
+		text-align: center;
+		font-family: $lato;
+		width: 90%;
+		font-size: 15px;
+		line-height: 1.7;
+		opacity: 0;
+		position: relative;
+		z-index: 2;
+		transition: 0.3s
+	}
+
+	&-cycle {
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		border: 45px solid $MineShaft;
+		border-radius: 50%;
+		top: 60%;
+		left: 62%;
+		z-index: 1;
+		opacity: 0;
+		transition: 0.3s
+	}
+
+	&-number {
+		text-transform: uppercase;
+		color: $MineShaft;
+		font-family: $mont;
+		font-size: 45px;
+		font-weight: bold;
+	}
+
+	&-statistic {
+		width: 100%;
+		display: flex;
+		margin-top: 120px;
+		justify-content: space-between;
+	}
+
+	&-explanation {
+		color: #666666;
+		font-size: 15px;
+		margin-top: 10px;
+		font-family: $lato;
+	}
+
+	&-impressive {
+		text-transform: uppercase;
+		color: $MineShaft;
+		font-family: $mont;
+		font-size: 28px;
+		font-weight: bold;
+		margin-top: 180px;
+	}
+}

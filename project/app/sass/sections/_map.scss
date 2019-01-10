@@ -1,0 +1,24 @@
+.map {
+	min-height: 164px;
+	background: url(../Img/map.png);
+	overflow: hidden;
+
+	.logan {
+		display: flex;
+		text-align: center;
+		font-size: 30px;
+		text-transform: none;
+		justify-content: center;
+		letter-spacing: 1.3px;
+		color: black;
+		padding-top: 70px;
+
+		div {
+			transform: rotate(90deg);
+			margin-top: -8px;
+			margin-left: 10px;
+			font-size: 50px;
+			font-family: $mont;
+		}
+	}
+}

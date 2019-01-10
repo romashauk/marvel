@@ -1,0 +1,40 @@
+.header {
+	background: $MineShaft;
+	min-height: 80px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	overflow: hidden;
+
+	.container {
+		display: flex;
+	}
+
+	&-logo {
+		padding-top: 23px;
+		width: 40.8%;
+		padding-left: 2px;
+	}
+
+	&-menu {
+		display: flex;
+		text-transform: uppercase;
+		justify-content: space-between;
+		width: 100%;
+		padding-top: 32px;
+	}
+
+	&-list {
+		color: #ffcccc;
+		font-size: 14px;
+		font-family: $lato;
+		transition: 0.3s;
+
+		&:hover {
+			color: $Supernova;
+		}
+	}
+	.team-icons{
+		display: none;
+	}
+}

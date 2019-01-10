@@ -1,0 +1,20 @@
+mixin price-item(priceClass,priceTittle,priceText,listClass,listText1,listText2)
+  div(class=priceClass+" price-item")
+    img(src="img/price-first.png", alt="", srcset="")
+    div.price-header
+      div.price-tittle #{priceTittle}
+      div.price-text 
+        div.price-dollar $
+        div #{priceText}
+        div.price-period / month
+        div.price-explaining 15 days free trial on all accounts
+    ul.price-list
+      li(class=listClass) 10 pages Website
+      li(class=listClass) Sell 1 Product & Accept Donations
+      li(class=listClass) Develop Platform
+      li(class=listClass) 20 Pages, Galleries
+      li(class=listClass) 120 GB Cloud Storage
+      li #{listText1}
+      li #{listText2}
+    a(href="#",class="price-button") Get Started Now
+

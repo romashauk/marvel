@@ -1,0 +1,174 @@
+.news {
+  min-height: 857px;
+  background: $white;
+  position: relative;
+  overflow: hidden;
+
+  .logan {
+    margin-top: 43px;
+    font-size: 30px;
+  }
+
+  .pre-logan {
+    top: 14%;
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    width: 100%;
+  }
+
+  &-item {
+    width: 264px;
+    height: 424px;
+    position: relative;
+    transition: 0.4s;
+
+    &:hover .news-slide {
+      display: flex;
+    }
+
+    &:hover .news-video {
+      opacity: 1;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &-date {
+    font-family: $mont;
+    color: $MineShaft;
+    background: #ebebeb;
+    width: 142px;
+    height: 34px;
+    position: absolute;
+    border-radius: 74px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 41%;
+    font-size: 12px;
+    left: 23%;
+  }
+
+  &-tittle {
+    @extend .service-tittle;
+    margin-bottom: 14px;
+    padding-top: 5px;
+  }
+
+  &-explaining {
+    text-transform: uppercase;
+    font-family: $mont;
+    font-weight: bold;
+    color: #666666;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  &-text {
+    color: #666666;
+    font-family: $lato;
+    padding: 0 20px 0 27px;
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+
+  &-button {
+    width: 100px;
+    height: 28px;
+    border-radius: 74px;
+    border: 1px solid transparent;
+    background: #ebebeb;
+    font-family: $mont;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 17px;
+    font-size: 12px;
+    transition: 0.3s;
+    color: black;
+
+    &:hover {
+      background: $Supernova;
+      border: 1px solid black;
+    }
+  }
+
+  &-link {
+    padding-left: 80px;
+    margin-top: 35px;
+  }
+
+  &-header {
+    position: relative;
+  }
+
+  &-slider {
+    position: absolute;
+    top: 33%;
+    display: flex;
+    padding: 0 20px;
+
+
+  }
+
+  &-slide {
+    width: 35px;
+    height: 35px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: transparent;
+    color: $white;
+    font-size: 20px;
+    font-family: $mont;
+    font-weight: 900;
+    border: 2px solid $white;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background: black;
+      border: 2px solid black;
+    }
+  }
+
+  .right {
+    margin-left: 155px;
+  }
+
+  .left {
+    transform: rotate(180deg)
+  }
+
+  &-video {
+    position: absolute;
+    background: #ebebeb;
+    width: 58px;
+    height: 58px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    top: 15.5%;
+    left: 40%;
+    transition: 0.3s;
+    opacity: 0;
+
+    &:hover {
+      background: $Supernova;
+      border: 1px solid $MineShaft;
+    }
+  }
+}

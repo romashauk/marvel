@@ -1,0 +1,151 @@
+.portfolio {
+  min-height: 330px;
+  background: $Supernova;
+  position: relative;
+  overflow: hidden;
+
+  .logan {
+    font-size: 30px;
+    padding-top: 144px;
+  }
+
+  .pre-logan {
+    color: #e7d00a;
+    top: 28%;
+    font-weight: bolder;
+  }
+
+  &-buttons {
+    margin-top: 63px;
+    display: flex;
+    padding-left: 28.8%;
+  }
+
+  &-item {
+    color: $MineShaft;
+    border: 1px solid $MineShaft;
+    background: transparent;
+    font-family: $mont;
+    font-weight: 700;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin: 0 5px;
+    transition: 0.3s;
+
+    &:hover {
+      background: $MineShaft;
+      color: $white;
+      box-shadow: 1px 1px 1px 1px grey;
+    }
+  }
+
+  .first {
+    width: 40px;
+    height: 35px;
+    transition: 0.3s;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover .portfolio-icon {
+      color: $white;
+    }
+  }
+
+  &-icon {
+    font-size: 20px;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(475px, 1fr));
+    min-height: 620px;
+    overflow: hidden;
+
+    &-item {
+      position: relative;
+      z-index: 1;
+      transition: 0.3s;
+      cursor: pointer;
+      overflow: hidden;
+
+      &:hover {
+        transform: scale(0.9);
+      }
+
+      &:hover .portfolio-footer {
+        opacity: 0.9;
+        top: 81%;
+      }
+    }
+  }
+
+  &-footer {
+    position: absolute;
+    height: 60px;
+    width: 481px;
+    background: #e5e4e3;
+    z-index: 2;
+    top: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    transition: 0.2s;
+
+    &-tittle {
+      text-transform: uppercase;
+      font-family: $mont;
+      font-weight: bold;
+
+    }
+
+    &-subscribe {
+      font-family: $lato;
+      text-transform: uppercase;
+      padding-left: 5px;
+      font-size: 11px;
+    }
+  }
+
+  &-links {
+    width: 95px;
+    height: 60px;
+    background: #e5e4e3;
+    position: absolute;
+    top: -50%;
+    left: 75%;
+    border-radius: 100px;
+    display: flex;
+  }
+
+  &-icons {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: $white;
+    opacity: 1;
+    margin-top: 12px;
+    margin-left: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background: $Supernova;
+    }
+
+    i {
+      color: black;
+      font-size: 12px;
+      transform: rotate(-80deg);
+      transition: 0.3s;
+    }
+
+    .fa-search {
+      transform: rotate(0deg)
+    }
+  }
+}

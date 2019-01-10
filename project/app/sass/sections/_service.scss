@@ -1,0 +1,90 @@
+.service {
+  background: url(../Img/service-img.png) no-repeat;
+  min-height: 950px;
+  position: relative;
+  background-position-y: 100%;
+  overflow: hidden;
+
+  &-cycle {
+    position: absolute;
+    width: 822px;
+    height: 822px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: 155px solid $Supernova;
+    top: 35%;
+    left: -17%;
+    z-index: 1;
+  }
+
+  &-wrapper {
+    width: 50%;
+    margin-left: auto;
+  }
+
+  .logan {
+    font-size: 31px;
+    text-align: start;
+    padding: 195px 20px 140px 0;
+  }
+
+  .pre-logan {
+    top: 15%;
+    left: 31.8%;
+  }
+
+  &-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-preference {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    i {
+      color: $MineShaft;
+      font-size: 50px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &-tittle {
+    @extend .features-tittle;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+
+  }
+
+  .text {
+    padding: 0 0 40px 0;
+    width: 215px;
+    text-align: center;
+    margin: 0;
+    line-height: 1.8;
+    display: inline;
+    margin: 0 auto;
+
+  }
+
+  .first {
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+  }
+
+  .second {
+    border-bottom: 1px solid silver;
+  }
+
+  .third {
+    border-right: 1px solid silver;
+    padding-top: 40px;
+  }
+
+  .fourth {
+    padding-top: 40px;
+  }
+}

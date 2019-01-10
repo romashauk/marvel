@@ -1,0 +1,19 @@
+.news#news
+  .container
+    h2.logan recent blog post
+    h1.pre-logan news
+    .news-container
+      +news-item("first","single image post")
+      +news-item("second","gallery image post")
+      .news-item
+        .news-header
+          img(src="img/news-third.png", alt="", class="news-img")
+          a(href="#", class="news-video")
+            ion-icon(name="play")
+          .news-date 23 july 2016
+          h1.news-tittle latest video post
+          p.news-explaining by admin . in logo . 1 comment
+          p.news-text Lorem ipsum is simply dummy text of the rinting and typesette industry lorem ipsum has ...
+        div.news-link
+          a(href="#", class="news-button") read more
+      +news-item("fourth","single image post")

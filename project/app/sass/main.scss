@@ -1,4 +1,20 @@
-body{
-    background: black;
-    color: yellow;
-}
+@import "components/reset";
+@import "components/variables";
+@import "components/template";
+@import "components/media";
+@import "sections/slide";
+@import "sections/header";
+@import "sections/about";
+@import "sections/offer";
+@import "sections/actions";
+@import "sections/features";
+@import "sections/portfolio";
+@import "sections/service";
+@import "sections/price";
+@import "sections/team";
+@import "sections/actionsSecond";
+@import "sections/news";
+@import "sections/contact";
+@import "sections/map";
+@import "sections/footer";
+@import "sections/law";
