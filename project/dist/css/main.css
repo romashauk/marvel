@@ -633,8 +633,6 @@ a {
     transition: 0.3s; }
     .header-list:hover {
       color: #f7e002; }
-  .header .team-icons {
-    display: none; }
 
 .about {
   background: #fcfcfb;
@@ -836,7 +834,7 @@ a {
       color: #f7e002; }
 
 .actions {
-  background-image: url(../Img/action-img.png);
+  background-image: url(../img/action-img.png);
   min-height: 652px;
   background-size: cover;
   position: relative;
@@ -1349,7 +1347,7 @@ a {
 
 .actionsSecond {
   min-height: 416px;
-  background: url(../Img/ontain.png);
+  background: url(../img/ontain.png);
   overflow: hidden; }
   .actionsSecond .container {
     padding-top: 103px;
