@@ -9,7 +9,7 @@
 		width: 550px;
 		height: 550px;
 		border-radius: 50%;
-		border: 103px solid $Supernova;
+		border: 110px solid $Supernova;
 		position: absolute;
 		top: 9.5%;
 		left: 59%;
@@ -21,7 +21,7 @@
 		z-index: 2;
 		display: flex;
 		flex-wrap: wrap;
-		padding-top: 164px;
+		padding-top: 157px;
 		justify-content: center;
 	}
 
@@ -43,6 +43,7 @@
 		color: #fefdfd;
 		padding-top: 30px;
 		letter-spacing: 1px;
+		padding-left: 24px;
 	}
 
 	&-buttons-set {

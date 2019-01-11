@@ -7,36 +7,38 @@
   border-top: 1px solid #d6d6d6;
   background-image: url(../img/device-lamp.png);
   background-repeat: no-repeat;
-  background-position-x: 4.15%;
+  background-position-x: 3.5%;
   z-index: 3;
 
   &-cycle {
     width: 375px;
     height: 375px;
     border-radius: 50%;
-    border: 75px solid $Supernova;
+    border: 77px solid $Supernova;
     z-index: 1;
     position: absolute;
-    top: 27%;
-    left: 52%;
+    top: 26%;
+    left: 51.45%;
   }
 
   &-logo {
     position: absolute;
-    left: 49.5%;
-    top: 16.3%;
+    left: 49.3%;
+    top: 14.8%;
     z-index: 3;
   }
 
   .main {
     width: 540px;
     text-align: start;
-    font-size: 27px;
-    margin-top: 74px;
+    font-size: 24px;
+    margin-top: 72px;
+    letter-spacing: 1.3px;
   }
 
   .pre-logan {
-    top: 12%;
+    top: 12.3%;
+    left: 19.75%;
     font-size: 70px;
   }
 
@@ -46,7 +48,7 @@
     font-size: 16px;
     width: 540px;
     line-height: 1.5;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 
   &-list {
@@ -71,10 +73,10 @@
     text-transform: uppercase;
     margin-top: 28px;
     font-family: $mont;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     padding: 12px;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
     transition: 0.3s;
 
     &:hover {

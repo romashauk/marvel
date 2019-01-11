@@ -418,9 +418,9 @@ textarea {
   width: 800px;
   font-family: "Lato", sans-serif;
   color: #7d7e7e;
-  padding-top: 68px;
-  font-size: 15px;
-  line-height: 1.7;
+  padding-top: 65px;
+  font-size: 14px;
+  line-height: 1.8;
   position: relative;
   z-index: 6; }
 
@@ -542,8 +542,8 @@ a {
     height: 190px;
     border-radius: 50%;
     position: absolute;
-    top: 40.9%;
-    left: 19%;
+    top: 40.7%;
+    left: 18.8%;
     z-index: 1; }
   .slide-label.second {
     padding-top: 0; }
@@ -572,11 +572,11 @@ a {
   .slide-label {
     font-family: "Montserrat", sans-serif;
     color: #333333;
-    font-size: 58px;
+    font-size: 58.5px;
     text-transform: uppercase;
     font-weight: 900;
-    padding-top: 490px;
-    line-height: 1.2;
+    padding-top: 487px;
+    line-height: 1.25;
     z-index: 2;
     position: relative; }
   .slide-buttons {
@@ -584,8 +584,8 @@ a {
     padding: 17px 32px;
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0);
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 16.5px;
+    margin-top: 18px;
     letter-spacing: 1px;
     transition: 0.3s;
     z-index: 2;
@@ -618,25 +618,28 @@ a {
     display: flex; }
   .header-logo {
     padding-top: 23px;
-    width: 40.8%;
+    width: 330px;
     padding-left: 2px; }
   .header-menu {
     display: flex;
     text-transform: uppercase;
     justify-content: space-between;
-    width: 100%;
+    width: 755px;
     padding-top: 32px; }
   .header-list {
     color: #ffcccc;
     font-size: 14px;
     font-family: "Lato", sans-serif;
-    transition: 0.3s; }
+    transition: 0.3s;
+    letter-spacing: 1.1px; }
     .header-list:hover {
       color: #f7e002; }
+  .header .team-icons {
+    display: none; }
 
 .about {
   background: #fcfcfb;
-  min-height: 1410px;
+  min-height: 1415px;
   position: relative;
   overflow: hidden; }
   .about .container {
@@ -646,15 +649,15 @@ a {
   .about-decoration {
     width: 1010px;
     height: 1010px;
-    border: 190px solid #f7e002;
+    border: 200px solid #f7e002;
     position: absolute;
     border-radius: 50%;
     top: 12.5%;
-    left: -474px; }
+    left: -485px; }
   .about-phone {
     position: absolute;
     top: 63.2%;
-    left: 78.2%; }
+    left: 78.3%; }
   .about-text {
     text-align: center;
     width: 930px;
@@ -668,7 +671,6 @@ a {
     margin-top: 68px;
     z-index: 4; }
     .about-buttons button {
-      text-transform: uppercase;
       font-family: "Lato", sans-serif;
       font-size: 19px;
       font-weight: 700; }
@@ -751,12 +753,14 @@ a {
   .about-statistic {
     width: 100%;
     display: flex;
-    margin-top: 120px;
-    justify-content: space-between; }
+    margin-top: 115px;
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 20px; }
   .about-explanation {
     color: #666666;
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 7.7px;
     font-family: "Lato", sans-serif; }
   .about-impressive {
     text-transform: uppercase;
@@ -764,7 +768,9 @@ a {
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
     font-weight: bold;
-    margin-top: 180px; }
+    margin-top: 184px;
+    letter-spacing: 0.8px;
+    padding-right: 60px; }
 
 .offer {
   background: #fcfcfb;
@@ -775,29 +781,31 @@ a {
   border-top: 1px solid #d6d6d6;
   background-image: url(../img/device-lamp.png);
   background-repeat: no-repeat;
-  background-position-x: 4.15%;
+  background-position-x: 3.5%;
   z-index: 3; }
   .offer-cycle {
     width: 375px;
     height: 375px;
     border-radius: 50%;
-    border: 75px solid #f7e002;
+    border: 77px solid #f7e002;
     z-index: 1;
     position: absolute;
-    top: 27%;
-    left: 52%; }
+    top: 26%;
+    left: 51.45%; }
   .offer-logo {
     position: absolute;
-    left: 49.5%;
-    top: 16.3%;
+    left: 49.3%;
+    top: 14.8%;
     z-index: 3; }
   .offer .main {
     width: 540px;
     text-align: start;
-    font-size: 27px;
-    margin-top: 74px; }
+    font-size: 24px;
+    margin-top: 72px;
+    letter-spacing: 1.3px; }
   .offer .pre-logan {
-    top: 12%;
+    top: 12.3%;
+    left: 19.75%;
     font-size: 70px; }
   .offer .text-logo {
     font-family: "Lato", sans-serif;
@@ -805,7 +813,7 @@ a {
     font-size: 16px;
     width: 540px;
     line-height: 1.5;
-    margin-top: 50px; }
+    margin-top: 48px; }
   .offer-list {
     line-height: 2.15;
     color: #7d7e7e;
@@ -824,10 +832,10 @@ a {
     text-transform: uppercase;
     margin-top: 28px;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     padding: 12px;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
     transition: 0.3s; }
     .offer-button:hover {
       background: #333333;
@@ -843,7 +851,7 @@ a {
     width: 550px;
     height: 550px;
     border-radius: 50%;
-    border: 103px solid #f7e002;
+    border: 110px solid #f7e002;
     position: absolute;
     top: 9.5%;
     left: 59%;
@@ -853,7 +861,7 @@ a {
     z-index: 2;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 164px;
+    padding-top: 157px;
     justify-content: center; }
   .actions-logan {
     color: #fff;
@@ -870,7 +878,8 @@ a {
     text-align: center;
     color: #fefdfd;
     padding-top: 30px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    padding-left: 24px; }
   .actions-buttons-set {
     width: 100%;
     display: flex;
@@ -893,12 +902,17 @@ a {
   padding-bottom: 10px;
   overflow: hidden; }
   .features .logan {
-    font-size: 30px;
-    margin-top: 40px; }
+    font-size: 28px;
+    margin-top: 35px;
+    padding-left: 83px;
+    letter-spacing: 0px; }
   .features .pre-logan {
-    top: 12%; }
+    top: 12%;
+    padding-left: 45px; }
   .features-distinguishing {
-    padding-top: 52px; }
+    padding-top: 55px; }
+  .features .last {
+    margin-top: 75px; }
   .features-row {
     display: flex;
     justify-content: space-between;

@@ -12,7 +12,7 @@
 
 	&-logo {
 		padding-top: 23px;
-		width: 40.8%;
+		width: 330px;
 		padding-left: 2px;
 	}
 
@@ -20,7 +20,7 @@
 		display: flex;
 		text-transform: uppercase;
 		justify-content: space-between;
-		width: 100%;
+		width:755px;
 		padding-top: 32px;
 	}
 
@@ -29,9 +29,13 @@
 		font-size: 14px;
 		font-family: $lato;
 		transition: 0.3s;
+		letter-spacing: 1.1px;
 
 		&:hover {
 			color: $Supernova;
 		}
+	}
+	.team-icons{
+		display: none;
 	}
 }
