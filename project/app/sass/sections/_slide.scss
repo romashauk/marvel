@@ -1,97 +1,99 @@
 .slide {
-	background-color: $DesertStorm;
-	min-height: 1154px;
-	position: relative;
-	z-index: 3;
-	overflow: hidden;
+  background-color: $DesertStorm;
+  min-height: 1154px;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
 
-	&-first {
-		background: $Supernova;
-		width: 190px;
-		height: 190px;
-		border-radius: 50%;
-		position: absolute;
-		top: 40.7%;
-		left: 18.8%;
-		z-index: 1;
-	}
-	&-label.second{
-		padding-top: 0;
-	}
-	&-second {
-		width: 194px;
-		height: 194px;
-		border: 40px solid $Supernova;
-		border-radius: 50%;
-		position: absolute;
-		top: 69.7%;
-		left: 53%;
-		z-index: 1;
-	}
+  &-first {
+    background: $Supernova;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40.7%;
+    left: 18.8%;
+    z-index: 1;
+  }
 
-	&-main-img {
-		z-index: 2;
-		position: absolute;
-		left: 58.7%;
-		top: 6.5%;
-	}
+  &-label.second {
+    padding-top: 0;
+  }
 
-	&-third {
-		width: 744px;
-		height: 744px;
-		position: absolute;
-		border: 145px solid $Supernova;
-		border-radius: 50%;
-		left: 64%;
-		top: 4.5%;
-	}
+  &-second {
+    width: 194px;
+    height: 194px;
+    border: 40px solid $Supernova;
+    border-radius: 50%;
+    position: absolute;
+    top: 69.7%;
+    left: 53%;
+    z-index: 1;
+  }
 
-	&-label {
-		font-family: $mont;
-		color: $MineShaft;
-		font-size: 58.5px;
-		text-transform: uppercase;
-		font-weight: 900;
-		padding-top: 487px;
-		line-height: 1.25;
-		z-index: 2;
-		position: relative;
-	}
+  &-main-img {
+    z-index: 2;
+    position: absolute;
+    left: 58.7%;
+    top: 6.5%;
+  }
 
-	&-buttons {
-		border: 1px solid $MineShaft;
-		padding: 17px 32px;
-		text-transform: uppercase;
-		background: rgba(0, 0, 0, 0);
-		font-size: 16.5px;
-		margin-top: 18px;
-		letter-spacing: 1px;
-		transition: 0.3s;
-		z-index: 2;
-		position: relative;
+  &-third {
+    width: 744px;
+    height: 744px;
+    position: absolute;
+    border: 145px solid $Supernova;
+    border-radius: 50%;
+    left: 64%;
+    top: 4.5%;
+  }
 
-		&:hover {
-			background: $MineShaft;
-			color: $Supernova;
-		}
-	}
+  &-label {
+    font-family: $mont;
+    color: $MineShaft;
+    font-size: 58.5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 487px;
+    line-height: 1.25;
+    z-index: 2;
+    position: relative;
+  }
 
-	&-slider {
-		display: flex;
-		margin-top: 40px;
-		z-index: 2;
-		position: relative;
+  &-buttons {
+    border: 1px solid $MineShaft;
+    padding: 17px 32px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0);
+    font-size: 16.5px;
+    margin-top: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    z-index: 2;
+    position: relative;
 
-		&-item {
-			width: 22px;
-			height: 4px;
-			background: #ffcccc;
-			margin-left: 3px;
-			cursor: pointer;
-		}
+    &:hover {
+      background: $MineShaft;
+      color: $Supernova;
+    }
+  }
 
-		.chosen {
-			background: $MineShaft;
-		}
-	}
+  &-slider {
+    display: flex;
+    margin-top: 40px;
+    z-index: 2;
+    position: relative;
+
+    &-item {
+      width: 22px;
+      height: 4px;
+      background: #ffcccc;
+      margin-left: 3px;
+      cursor: pointer;
+    }
+
+    .chosen {
+      background: $MineShaft;
+    }
+  }
 }
