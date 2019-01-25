@@ -132,21 +132,9 @@ part2.onmouseover = function () {
 	cycle[3].classList.add("animation");
 	cycle[3].classList.add("opacity");
 }
-var header = document.querySelector('.header');
-var headerButton = document.querySelector(".icon-menu");
-var i = 0;
-headerButton.onclick = function () {
-	i++;
-	if (i % 2 == 1) {
-		header.style.transform = "translateX(0)";
-		header.style.transition = "1s";
-		headerButton.style.transform = "rotate(180deg)";
-		headerButton.style.transition = "1s";
-	}
-	if (i % 2 == 0) {
-		header.style.transform = "translateX(-160px)";
-		header.style.transition = "1s";
-		headerButton.style.transform = "rotate(-180deg)";
-		headerButton.style.transition = "1s";
-	}
-}
+$('.fa-angle-down').on('click',function(){
+	$('.header-menu').toggle('header__toggle');
+})
+$('.header-menu').on('click',function(){
+	$('.header-menu').toggle('header__toggle')
+})
