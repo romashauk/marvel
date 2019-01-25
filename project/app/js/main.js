@@ -132,9 +132,21 @@ part2.onmouseover = function () {
 	cycle[3].classList.add("animation");
 	cycle[3].classList.add("opacity");
 }
+let num =0;
 $('.fa-angle-down').on('click',function(){
+	num++;
+	if(num%2!==0){
+		$('.header').addClass('header__toggle__height')
+	}
+	if(num%2===0){
+		$('.header').removeClass('header__toggle__height')
+	}
 	$('.header-menu').toggle('header__toggle');
+	
+	
 })
 $('.header-menu').on('click',function(){
-	$('.header-menu').toggle('header__toggle')
+	num++;
+	$('.header-menu').toggle('header__toggle');
+	$('.header').removeClass('header__toggle__height')
 })

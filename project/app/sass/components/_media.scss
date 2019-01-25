@@ -5,10 +5,11 @@
 		width: 100%;
 		text-align: center;
 	}
-	.fa-angle-down{
+	.header .fa-angle-down{
 		color: white;
 		margin: 0 auto;
 		font-size: 40px;
+		display: block;
 	}
 	.header .team-icons{
 		display: flex;
@@ -18,6 +19,9 @@
 		color: white;
 		margin-top: 10px;
 
+	}
+	.header__toggle__height{
+		height: 100vh;
 	}
 
 	i {

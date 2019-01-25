@@ -5,7 +5,9 @@
   top: 0;
   z-index: 10;
   overflow: hidden;
-
+  .fa-angle-down{
+    display: none;
+  }
   .container {
     display: flex;
   }

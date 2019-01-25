@@ -614,6 +614,8 @@ a {
   top: 0;
   z-index: 10;
   overflow: hidden; }
+  .header .fa-angle-down {
+    display: none; }
   .header .container {
     display: flex; }
   .header-logo {
@@ -1674,16 +1676,19 @@ a {
     padding-top: 20px;
     width: 100%;
     text-align: center; }
-  .fa-angle-down {
+  .header .fa-angle-down {
     color: white;
     margin: 0 auto;
-    font-size: 40px; }
+    font-size: 40px;
+    display: block; }
   .header .team-icons {
     display: flex;
     width: 200px; }
   .header-links a {
     color: white;
     margin-top: 10px; }
+  .header__toggle__height {
+    height: 100vh; }
   i {
     font-size: 25px; }
   .header__toggle {
