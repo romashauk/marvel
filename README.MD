@@ -1,1 +1,1 @@
-https://romashauk.github.io/template-/project/dist/index.html
+https://romashauk.github.io/marvel/project/dist/index.html
