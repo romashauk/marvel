@@ -133,6 +133,8 @@ part2.onmouseover = function () {
 	cycle[3].classList.add("opacity");
 }
 let num =0;
+let body =document.querySelector('body')
+console.dir(body)
 $('.fa-angle-down').on('click',function(){
 	num++;
 	if(num%2!==0){
@@ -145,8 +147,13 @@ $('.fa-angle-down').on('click',function(){
 	
 	
 })
+
 $('.header-menu').on('click',function(){
-	num++;
-	$('.header-menu').toggle('header__toggle');
-	$('.header').removeClass('header__toggle__height')
+	if(body.clientWidth<1140){
+		num++;
+		console.log(e)
+		$('.header-menu').toggle('header__toggle');
+		$('.header').removeClass('header__toggle__height')
+	}
+
 })
